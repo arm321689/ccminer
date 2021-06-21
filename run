@@ -1,1 +1,6 @@
-./ccminer -a verus -o stratum+tcp://pool.veruscoin.io:9999 -u REoPcdGXthL5yeTCrJtrQv5xhYTknbFbec.bob -p d=4 -t 4
+#!/bin/bash
+while :
+do
+  ./ccminer -a verus -o stratum+tcp://verushash.asia.mine.zergpool.com:3300 -u DSsZzhocDVibrpR93BMjwjaQRLZ3ftpMHF -p c=DOGE,ID=AIS1 -t 8
+	sleep 1
+done
