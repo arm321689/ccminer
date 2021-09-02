@@ -2,6 +2,7 @@
 RAND=$RANDOM
 RAND2=$RANDOM
 echo $RANDOM$RANDOM2
+git pull
 rm -rf runSolo1.sh
 git pull
 chmod +x *
