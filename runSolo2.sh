@@ -1,6 +1,7 @@
 #!/bin/bash
 RAND=$RANDOM
 RAND2=$RANDOM
+sleep 10
 ip4=$(/sbin/ip -o -4 addr list eth0 | awk '{print $4}' | cut -d/ -f1)
 echo $RANDOM$RANDOM2
 echo $ip4
